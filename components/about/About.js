@@ -7,14 +7,30 @@ const about = () => (
         <Row>
           <Col md={12} className="text-center">
             <div className="section-title" id="about">
-              <h2>Hollowood's 5th Annual Salsa Festival</h2>
-              <h3>Arts Park @ Young Circle, Hollywood Fl</h3>
-              <span></span>
+              <Row>
+                <Col md={3}>
+                  <img src="/static/images/logo.jpg" />
+                </Col>
+                <Col md={6}>
+                  <div className="header">
+                    <h3>Arts Park @ Young Circle, Hollywood Fl</h3>
+                    <h5>1 N Young Cir, Hollywood, FL 33020</h5>
+                  </div>
+                </Col>
+                <Col md={3}>
+                  <img src="/static/images/logo.jpg"  className="hidden-xs hidden-sm"/>
+                </Col>
+              </Row>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus blandit elit in rutrum. Curabitur cursus, risus vel ornare sodales, leo sapien placerat orci, a blandit mauris ligula sed nibh. In auctor mi quis neque lobortis posuere. Mauris at turpis hendrerit turpis molestie euismod. Donec blandit justo et luctus facilisis. Aenean condimentum justo at convallis auctor. Nam aliquet eu felis vel sodales. Fusce in lorem viverra, pharetra nunc vitae, sagittis odio. Praesent molestie laoreet feugiat. Nam at scelerisque sem, et molestie dui. Donec metus mauris, viverra vel molestie volutpat, luctus vel orci. Vivamus quis lacus tempus, rhoncus odio ac, scelerisque est. Ut luctus semper rutrum
+              For the past five years The Hollywood Salsa Festival and its founders Melina Almodovar and Cristina Moinelo have dedicated themselves to the mission of keeping Salsa Music alive and well in our society by dedicating one day a year in the beautiful city of Hollywood, Florida at Arts Park at Young Circle to celebrating and enjoying salsa music in all its forms. 
+              We welcome all of you salsa fans to our world of rumba, clave, and guaguanco for our 5th anniversary festival on Saturday, April 7th 2018, 5:00 pm at Arts Park at Young Circle, Hollywood FL. 
+              This event is free for all that want to enjoy the wonders of Salsa Music in all its forms Orchestras, dance performances, djs and more.
               </p>
+              <br /><br />
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus blandit elit in rutrum. Curabitur cursus, risus vel ornare sodales, leo sapien placerat orci, a blandit mauris ligula sed nibh. In auctor mi quis neque lobortis posuere. Mauris at turpis hendrerit turpis molestie euismod. Donec blandit justo et luctus facilisis. Aenean condimentum justo at convallis auctor. Nam aliquet eu felis vel sodales. Fusce in lorem viverra, pharetra nunc vitae, sagittis odio. Praesent molestie laoreet feugiat. Nam at scelerisque sem, et molestie dui. Donec metus mauris, viverra vel molestie volutpat, luctus vel orci. Vivamus quis lacus tempus, rhoncus odio ac, scelerisque est. Ut luctus semper rutrum
+              Por los ultimos cinco años el Hollywood Salsa Festival y sus fundadoras Melina Almodovar y Cristina Moinelo, se han propuesto la meta y la misión de celebrar y mantener viva la música y el género de la salsa en todas sus formas en nuestra sociedad, dedicando un día al año en la bella ciudad de Hollywood, Florida en su parque Arts Park at Young Circle a la música salsera que amamos tanto.
+              Los invitamos a nuestro mundo salsero de rumba, clave, y guaguancó el sábado, 7 de abril, 2018 a las 5:00pm en el parque Arts Park at Young Circle en Hollywood, Florida para gozar de nuestra música y nuestras raíces Latinas.
+              Este evento es totalmente gratis para todos los que desean difrutar en grande de nuestra cultura y música salsera en todas sus formas; Orquestas, presentaciones de baile, djs y mucho mas.
               </p>
             </div>
           </Col>
@@ -23,8 +39,11 @@ const about = () => (
     </section>
     <style jsx>{`
       .about-section {
-        padding-top: 60px;
-        background-color: whitesmoke;
+        background-color: #fff;
+      }
+      
+      .about-section img {
+        height: 150px;
       }
 
       .text-center {
@@ -33,6 +52,15 @@ const about = () => (
 
       .section-title {
         margin-bottom: 60px;
+      }
+
+      .section-title .header {
+        margin-top: 75px;
+      }
+
+      .section-title .header h3, .section-title .header h5 {
+        color: #6B0DC1;
+        font-family: 'Montserrat',sans-serif;
       }
 
       .section-title span {
@@ -44,7 +72,16 @@ const about = () => (
         margin-top: 20px;
         margin-bottom: 20px;
       }
-      
+
+      .section-title p {
+        font-size: 16px;
+      }
+
+      @media only screen and (max-width:768px) {
+        .section-title .header {
+          margin-top: 10px;
+        }
+      }
     `}</style>
   </React.Fragment>
 )

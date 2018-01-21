@@ -2,11 +2,11 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import ContentSection from '../ContentSection'
 
 const schedule = () => (
-  <ContentSection title={ 'Saturday April 7th 2018' } theme={ 'black' } sectionId={ 'schedule' }>
+  <ContentSection title={ 'Saturday April 7th 2018' } theme={ 'purple' } sectionId={ 'schedule' }>
     <Col md={10} mdOffset={2}>
       <div className="schedule-item">
         <span className="time pull-left">
-          <i className="fa fa-clock"></i> 5:00 - 6:00 PM
+          <i className="fa fa-clock"></i> 5:00PM
         </span>
         <span className="title">
           Live DJ
@@ -14,18 +14,18 @@ const schedule = () => (
       </div>
       <div className="schedule-item">
         <span className="time pull-left">
-          <i className="fa fa-clock"></i> 6:30 - 7:30 PM
+          <i className="fa fa-clock"></i> 7:00PM
         </span>
         <span className="title">
-          Salsa Dance Performances
+          Dance Performances
         </span>
       </div>
       <div className="schedule-item noborder">
         <span className="time pull-left">
-          <i className="fa fa-clock"></i> 8:00 - 11:30PM
+          <i className="fa fa-clock"></i> 8:00PM
         </span>
         <span className="title">
-          Live Musical Performances
+          Musical Performances
         </span>
       </div>
     </Col>
@@ -37,11 +37,12 @@ const schedule = () => (
       }
 
       .schedule-item .time i {
-        color: red;
+        color: #E80A40;
       }
 
       .schedule-item .title {
         padding-left: 75px;
+        color: #ececfb;
       }
 
       .noborder {

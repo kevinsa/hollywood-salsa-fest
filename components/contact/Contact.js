@@ -13,15 +13,24 @@ const contact = () => (
                 <i className="fa fa-map-marker"></i> 1 N Young Cir, Hollywood, FL 33020
               </li>
               <li>
-                <i className="fa fa-phone"></i> 1.800.993.9909
+                <i className="fa fa-phone"></i> 305.321.1087
               </li>
               <li>
-                <i className="fa fa-envelope"></i> info@hollywoodsalsafest.com
+                <i className="fa fa-envelope"></i> <a href="mailto:info@hollywoodsalsafest.com">info@hollywoodsalsafest.com</a>
               </li>
               <li>
-                <i className="fa fa-clock"></i> Saturday April 7th 2018 5pm - 11pm
+                <i className="fa fa-clock"></i> Saturday April 7th 2018 at 5PM
               </li>
             </ul>
+          </div>
+        </Col>
+        <Col lg={6} sm={12} xs={12}>
+          <div className="contact">
+            <h3>Sponsorship Information</h3>
+            <div>
+              Want to promote you business at the festival?  Sponsorship packages and food/merchandise booths are available for purchase.  To learn more about how you can promote your business at the
+              festival please contact us at 305.321.1087 or <a href="mailto:info@hollywoodsalsafest.com">info@hollywoodsalsafest.com</a>
+            </div>
           </div>
         </Col>
       </Row>
@@ -35,8 +44,14 @@ const contact = () => (
       }
       .contact h3 {
         margin: 0 0 40px;
+        color: #301540;
         text-transform: uppercase;
       }
+
+      .contact a {
+        color: #6B0DC1;
+      }
+
       .contact ul { 
         list-style: none;
       }

@@ -2,14 +2,26 @@ import { Grid, Row, Col } from 'react-bootstrap'
 
 const contentSection = (props) => {
 
-  const theme = { fgColor: '#000', bgColor: '#fff' }
+  const theme = { fgColor: '#301540', bgColor: '#fff', underline: '#E80A40' }
 
   switch(props.theme) {
     case 'black':
       theme.fgColor = "#fff"
       theme.bgColor = "#000"
-
+      break;
+    case 'smoke':
+      theme.bgColor = "whitesmoke"
+      break;
+    case 'lavendar':
+      theme.bgColor = "#ececfb"
+      theme.fgColor = "#301540"
+      break;
+    case 'purple':
+      theme.bgColor = "#301540"
+      theme.fgColor = "#fff"
+      break;
     default:
+      break;
   }
   
   return (
@@ -26,9 +38,7 @@ const contentSection = (props) => {
             </div>
           </Col>
         </Row>
-        <Row>
-            { props.children }
-        </Row>
+        { props.children }
       </Grid>
     </section>
     <style jsx>{`
@@ -51,7 +61,7 @@ const contentSection = (props) => {
       }
 
       .section-title span {
-        background: red;
+        background: ${theme.underline}
         height: 10px;
         width: 70px;
         display: block;

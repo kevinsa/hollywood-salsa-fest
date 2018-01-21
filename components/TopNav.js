@@ -61,24 +61,24 @@ class TopNav extends React.Component {
       }
 
       .transparent .navbar-nav>li>a:hover {
-        color: red;
+        color: #F8EB68;
       }
 
       .opaque { 
-        background: white;
-        border-bottom: 1px solid #000;
+        background: #301540;
+        border-bottom: 1px solid #e6e6fa;
       }
 
       .opaque .navbar-nav>li>a {
-        color: #000;
+        color: #e6e6fa;
       }
 
       .opaque .navbar-nav>li>a:visited {
-        color: #000;
+        color: #e6e6fa;
       }
 
       .opaque .navbar-nav>li>a:hover {
-        color: red;
+        color: #F8EB68;
       }
       `}</style>
       </React.Fragment>

@@ -67,7 +67,7 @@ const Welcome = (props) => (
       }
 
       .hero-text h1 {
-        font-size: 70px;
+        font-size: 80px;
         font-weight: 700;
         color: #F8EB68;
         font-family: 'Comfortaa', cursive;

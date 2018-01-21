@@ -6,7 +6,7 @@ const sponsors = (props) => {
   const sponsorContents = props.sponsors.map((sponsor) => {
     return (
         <div key={sponsor.id} className="sponsor">
-          <img src={sponsor.imgUrl} />
+          <img src={sponsor.imgUrl} height={sponsor.height} />
           <style jsx>{`
             .sponsor {
               display: inline-block;

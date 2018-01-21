@@ -26,14 +26,16 @@ const IndexPage = (props) => (
 
 IndexPage.getInitialProps = async function (context) {
   const performers = [
-    { id: 0, name: 'Melina Almodovar', imgUrl: 'http://via.placeholder.com/200x200' },
-    { id: 1, name: 'Melina Almodovar', imgUrl: 'http://via.placeholder.com/200x200' },
-    { id: 2, name: 'Melina Almodovar', imgUrl: 'http://via.placeholder.com/200x200' },
-    { id: 3, name: 'Melina Almodovar', imgUrl: 'http://via.placeholder.com/200x200' }
+    { id: 0, name: 'Melina Almodovar', imgUrl: '/static/images/anonymous-female.png' },
+    { id: 1, name: 'Melina Almodovar', imgUrl: '/static/images/anonymous.png' },
+    { id: 2, name: 'Melina Almodovar', imgUrl: '/static/images/anonymous-female.png' },
+    { id: 3, name: 'Melina Almodovar', imgUrl: '/static/images/anonymous.png' }
   ]
 
   const sponsors = [
-    { id: 0, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
+    { id: 0, name: '', imgUrl: '/static/images/sponsors/cba-realty-logo.jpg', height: '100' },
+    { id: 1, name: '', imgUrl: '/static/images/sponsors/hollywood-cra-logo.jpg', height: '100' },
+    {/*
     { id: 1, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
     { id: 2, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
     { id: 3, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
@@ -41,6 +43,7 @@ IndexPage.getInitialProps = async function (context) {
     { id: 5, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
     { id: 6, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
     { id: 7, name: '', imgUrl: 'http://via.placeholder.com/100x50' }
+  */}
   ]
 
   return {
