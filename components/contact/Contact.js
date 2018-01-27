@@ -10,10 +10,10 @@ const contact = () => (
             <h3>Event Information</h3>
             <ul>
               <li>
-                <i className="fa fa-map-marker"></i> 1 N Young Cir, Hollywood, FL 33020
+                <i className="fa fa-map-marker"></i> <a href="http://maps.google.com/maps?q=1 n young cir, hollywood, fl 33020">1 N Young Cir, Hollywood, FL 33020</a>
               </li>
               <li>
-                <i className="fa fa-phone"></i> 305.321.1087
+                <i className="fa fa-phone"></i> <a href="tel:954.399.0151">954.399.0151</a>
               </li>
               <li>
                 <i className="fa fa-envelope"></i> <a href="mailto:info@hollywoodsalsafest.com">info@hollywoodsalsafest.com</a>
@@ -29,7 +29,7 @@ const contact = () => (
             <h3>Sponsorship Information</h3>
             <div>
               Want to promote you business at the festival?  Sponsorship packages and food/merchandise booths are available for purchase.  To learn more about how you can promote your business at the
-              festival please contact us at 305.321.1087 or <a href="mailto:info@hollywoodsalsafest.com">info@hollywoodsalsafest.com</a>
+              festival please contact us at <a href="tel:954.399.0151">954.399.0151</a> or <a href="mailto:info@hollywoodsalsafest.com">info@hollywoodsalsafest.com</a>
             </div>
           </div>
         </Col>

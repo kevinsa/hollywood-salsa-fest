@@ -32,6 +32,15 @@ const about = () => (
               Los invitamos a nuestro mundo salsero de rumba, clave, y guaguancó el sábado, 7 de abril, 2018 a las 5:00pm en el parque Arts Park at Young Circle en Hollywood, Florida para gozar de nuestra música y nuestras raíces Latinas.
               Este evento es totalmente gratis para todos los que desean difrutar en grande de nuestra cultura y música salsera en todas sus formas; Orquestas, presentaciones de baile, djs y mucho mas.
               </p>
+              <div className="social-media">
+                <h3>Visit us social media</h3>
+                <a href="http://www.facebook.com/hollywoodsalsafestival" target="_blank">
+                  <img className="pad-right" src="/static/images/facebook-icon.png" atl="salafest-facebook-link" />
+                </a>
+                <a href="https://www.instagram.com/hollywoodsalsafestival/?hl=en" target="_blank">
+                  <img src="/static/images/instagram-icon.png" alt="salsafest-instagram-link" />
+                </a>
+              </div>
             </div>
           </Col>
         </Row>
@@ -75,6 +84,19 @@ const about = () => (
 
       .section-title p {
         font-size: 16px;
+      }
+
+      .about-section .social-media {
+        margin-top: 20px
+      }
+
+      .about-section .social-media .pad-right {
+        margin-right: 10px;
+      }
+
+      .about-section .social-media img {
+        height: 50px;
+        width: 50px;
       }
 
       @media only screen and (max-width:768px) {

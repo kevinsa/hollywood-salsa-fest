@@ -61,12 +61,12 @@ const performance = (props) => {
           <div className="wrapper">
             <h3>Previous Performers</h3>
             <p>
-              Melina Almodovar, Ramses Araya, Chino Nuñez, Aymee Nuviola, Michelle Brava, Marlon Fernandez, Tito Puente Jr. and Sandy Silva
+              Melina Almodovar, Chino Nuñez, Ramses Araya, Aymee Nuviola, Michelle Brava, Marlon Fernandez, Tito Puente Jr. and Orquesta Calle Sol
             </p>
             <br />
             <h3>Previous Dance Teams</h3>
             <p>
-            Nuevolution Dance Studios, Cali Pal Mundo, Casa Salsa, Dvice, Alex Pro Dance, Salsa Central Dance Studios, and Dancing Thru Life
+            Nuevolution Dance Studios, Cali Pal Mundo, Casa Salsa, Dvice, Salsa Central Dance Studios, and Dancing Thru Life
             </p>
           </div>
           <style jsx>{`
