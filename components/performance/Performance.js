@@ -5,7 +5,7 @@ const performance = (props) => {
 
   const performerContents = props.performers.map((p) => {
     return (
-          <React.Fragment>
+          <React.Fragment key={p.id}>
           <Col key={p.id} lg={3}>
             <img className="img-performer" src={p.imgUrl} height="150"/>
             {/*
