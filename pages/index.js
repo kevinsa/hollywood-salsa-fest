@@ -10,6 +10,7 @@ import Sponsors from '../components/sponsors/Sponsors'
 import BottomNav from '../components/BottomNav'
 import Contact from '../components/contact/Contact'
 import Location from '../components/location/Location'
+import Gallery from '../components/gallery/Gallery'
 
 const IndexPage = (props) => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = (props) => (
     <About />
     <Performance performers={props.performers} />
     <Schedule />
+    <Gallery />
     <Sponsors sponsors={props.sponsors} />
     <Contact />
     <Location />
