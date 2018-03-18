@@ -39,14 +39,14 @@ IndexPage.getInitialProps = async function (context) {
   ]
 
   const sponsors = [
-    { id: 0, name: '', imgUrl: '/static/images/sponsors/cba-realty-logo.jpg', height: '150' },
-    { id: 1, name: '', imgUrl: '/static/images/sponsors/hollywood-cra-logo.jpg', height: '150' },
-    { id: 2, name: '', imgUrl: '/static/images/sponsors/budlight.jpg', height: '150' },
-    { id: 3, name: '', imgUrl: '/static/images/sponsors/presidente.jpg', height: '150' },
-    { id: 4, name: '', imgUrl: '/static/images/sponsors/casa-borinquen.jpg', height: '150' },
-    { id: 5, name: '', imgUrl: '/static/images/sponsors/gasolina.jpg', height: '150' },
-    { id: 6, name: '', imgUrl: '/static/images/sponsors/prowater.jpg', height: '150' },
-    { id: 7, name: '', imgUrl: '/static/images/sponsors/yo-soy-latino.jpg', height: '150' },
+    { id: 0, name: '', imgUrl: '/static/images/sponsors/cba-realty-logo.jpg', height: '125' },
+    { id: 1, name: '', imgUrl: '/static/images/sponsors/hollywood-cra-logo.jpg', height: '125' },
+    { id: 2, name: '', imgUrl: '/static/images/sponsors/budlight.jpg', height: '125' },
+    { id: 3, name: '', imgUrl: '/static/images/sponsors/presidente.jpg', height: '125' },
+    { id: 4, name: '', imgUrl: '/static/images/sponsors/casa-borinquen.jpg', height: '125' },
+    { id: 5, name: '', imgUrl: '/static/images/sponsors/gasolina.jpg', height: '125' },
+    { id: 6, name: '', imgUrl: '/static/images/sponsors/prowater.jpg', height: '125' },
+    { id: 7, name: '', imgUrl: '/static/images/sponsors/yo-soy-latino.jpg', height: '125' },
   ]
 
   return {
