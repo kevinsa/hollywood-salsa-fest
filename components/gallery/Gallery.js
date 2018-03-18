@@ -18,10 +18,12 @@ const gallery = (props) => {
                     <img src="/static/images/gallery/carousel-2.jpg" />
                     <p className="legend">Last Year's Closing</p>
                 </div>
+                {/*
                 <div>
                     <img src="/static/images/gallery/carousel-3.jpg" />
                     <p className="legend">Food and Merchandise</p>
                 </div>
+                */}
             </Carousel>
           </div>
       </Col>
