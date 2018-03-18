@@ -21,6 +21,11 @@ const about = () => (
                   <img src="/static/images/logo.jpg"  className="hidden-xs hidden-sm"/>
                 </Col>
               </Row>
+              <Row>
+                <p>
+                  <img src="/static/images/banner-flyer.jpg" />
+                </p>
+              </Row>
               <p>
               For the past five years The Hollywood Salsa Festival and its founders Melina Almodovar and Cristina Moinelo have dedicated themselves to the mission of keeping Salsa Music alive and well in our society by dedicating one day a year in the beautiful city of Hollywood, Florida at Arts Park at Young Circle to celebrating and enjoying salsa music in all its forms. 
               We welcome all of you salsa fans to our world of rumba, clave, and guaguanco for our 5th anniversary festival on Saturday, April 7th 2018, 5:00 pm at Arts Park at Young Circle, Hollywood FL. 

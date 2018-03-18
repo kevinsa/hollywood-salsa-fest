@@ -28,24 +28,25 @@ const IndexPage = (props) => (
 
 IndexPage.getInitialProps = async function (context) {
   const performers = [
-    { id: 0, name: 'Melina Almodovar', imgUrl: '/static/images/anonymous-female.png' },
-    { id: 1, name: 'Melina Almodovar', imgUrl: '/static/images/anonymous.png' },
-    { id: 2, name: 'Melina Almodovar', imgUrl: '/static/images/anonymous-female.png' },
-    { id: 3, name: 'Melina Almodovar', imgUrl: '/static/images/anonymous.png' }
+    { id: 0, name: 'Melina Almodovar', imgUrl: '/static/images/performers/melina-almodovar.jpg' },
+    { id: 1, name: 'Luisito Carrion', imgUrl: '/static/images/performers/luis-carrion.jpg' },
+    { id: 2, name: 'El Buho Loco', imgUrl: '/static/images/performers/crazy-owl.jpg' },
+    { id: 3, name: 'Ramses Araya', imgUrl: '/static/images/performers/ramses.jpg' },
+    { id: 4, name: 'Mario Ortiz', imgUrl: '/static/images/performers/mario-ortiz.jpg' },
+    { id: 5, name: 'Jerry Santiago', imgUrl: '/static/images/performers/jerry-santiago.jpg' },
+    { id: 6, name: 'DJ Raya', imgUrl: '/static/images/performers/dj-raya.jpg' },
+    { id: 7, name: 'MC Negro Fino', imgUrl: '/static/images/performers/nelson-fritz.jpg' }
   ]
 
   const sponsors = [
-    { id: 0, name: '', imgUrl: '/static/images/sponsors/cba-realty-logo.jpg', height: '100' },
-    { id: 1, name: '', imgUrl: '/static/images/sponsors/hollywood-cra-logo.jpg', height: '100' },
-    {/*
-    { id: 1, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
-    { id: 2, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
-    { id: 3, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
-    { id: 4, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
-    { id: 5, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
-    { id: 6, name: '', imgUrl: 'http://via.placeholder.com/100x50' },
-    { id: 7, name: '', imgUrl: 'http://via.placeholder.com/100x50' }
-  */}
+    { id: 0, name: '', imgUrl: '/static/images/sponsors/cba-realty-logo.jpg', height: '150' },
+    { id: 1, name: '', imgUrl: '/static/images/sponsors/hollywood-cra-logo.jpg', height: '150' },
+    { id: 2, name: '', imgUrl: '/static/images/sponsors/budlight.jpg', height: '150' },
+    { id: 3, name: '', imgUrl: '/static/images/sponsors/presidente.jpg', height: '150' },
+    { id: 4, name: '', imgUrl: '/static/images/sponsors/casa-borinquen.jpg', height: '150' },
+    { id: 5, name: '', imgUrl: '/static/images/sponsors/gasolina.jpg', height: '150' },
+    { id: 6, name: '', imgUrl: '/static/images/sponsors/prowater.jpg', height: '150' },
+    { id: 7, name: '', imgUrl: '/static/images/sponsors/yo-soy-latino.jpg', height: '150' },
   ]
 
   return {
