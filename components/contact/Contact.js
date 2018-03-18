@@ -25,7 +25,7 @@ const contact = () => (
           </div>
         </Col>
         <Col lg={6} sm={12} xs={12}>
-          <div className="contact">
+          <div className="contact pad-top">
             <h3>Sponsorship Information</h3>
             <div>
               Want to promote you business at the festival?  Sponsorship packages and food/merchandise booths are available for purchase.  To learn more about how you can promote your business at the
@@ -70,6 +70,25 @@ const contact = () => (
         margin-right: 20px;
         text-align: center;
         width: 45px;
+      }
+
+      @media only screen and (max-width:768px) {
+        .contact {
+          margin-top: 20px;
+        }
+
+        .contact ul li i { 
+          background: #fff none repeat scroll 0 0;
+          color: red;
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 30px;
+          font-size: 18px;
+          height: 45px;
+          line-height: 45px;
+          margin-right: 0px;
+          text-align: center;
+          width: 45px;
+        }
       }
     `}</style>
   </React.Fragment>

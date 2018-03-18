@@ -23,6 +23,9 @@ const sponsors = (props) => {
   <React.Fragment>
     <ContentSection title={ 'Event Sponsors' } theme={ 'white' } sectionId={ 'sponsors' }>
       <Col md={12}>
+        <div className="main-sponsor">
+          <img src={props.headliner.imgUrl} height={props.headliner.height} />
+        </div>
         <div className="sponsors">
           {sponsorContents}
         </div>
@@ -34,6 +37,10 @@ const sponsors = (props) => {
         line-height: 0;
         margin-top: 10px;
         padding: 30px 10px;
+        text-align: center;
+      }
+
+      .main-sponsor {
         text-align: center;
       }
     `}</style>

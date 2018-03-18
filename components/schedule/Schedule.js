@@ -3,29 +3,29 @@ import ContentSection from '../ContentSection'
 
 const schedule = () => (
   <ContentSection title={ 'Saturday April 7th 2018' } theme={ 'purple' } sectionId={ 'schedule' }>
-    <Col md={10} mdOffset={2}>
+    <Col sm={12} md={10} mdOffset={2}>
       <div className="schedule-item">
         <span className="time pull-left">
-          <i className="fa fa-clock"></i> 5:00PM
+          <i className="fa fa-clock"></i> 5PM  <span className="hidden-md hidden-lg">Live DJ</span>
         </span>
-        <span className="title">
+        <span className="title hidden-xs hidden-sm">
           Live DJ
         </span>
       </div>
       <div className="schedule-item">
         <span className="time pull-left">
-          <i className="fa fa-clock"></i> 7:00PM
+          <i className="fa fa-clock"></i> 7PM  <span className="hidden-md hidden-lg">Dance Show</span> 
         </span>
-        <span className="title">
-          Dance Performances
+        <span className="title hidden-xs hidden-sm">
+          Dance Show
         </span>
       </div>
       <div className="schedule-item noborder">
         <span className="time pull-left">
-          <i className="fa fa-clock"></i> 8:00PM
+          <i className="fa fa-clock"></i> 8PM  <span className="hidden-md hidden-lg">Music Show</span>
         </span>
-        <span className="title">
-          Musical Performances
+        <span className="title hidden-xs hidden-sm ">
+          Music Show
         </span>
       </div>
     </Col>
@@ -40,6 +40,9 @@ const schedule = () => (
         color: #E80A40;
       }
 
+      .schedule-item .time span {
+        margin-left: 5px;
+      }
       .schedule-item .title {
         padding-left: 75px;
         color: #ececfb;
