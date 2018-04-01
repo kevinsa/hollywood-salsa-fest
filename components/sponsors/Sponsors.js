@@ -4,9 +4,11 @@ import ContentSection from '../ContentSection'
 const sponsors = (props) => {
 
   const sponsorContents = props.sponsors.map((sponsor) => {
+    let imgWidth = sponsor.hasOwnProperty('width') ? sponsor.width : '';
+
     return (
         <div key={sponsor.id} className="sponsor">
-          <img src={sponsor.imgUrl} height={sponsor.height} />
+          <img src={sponsor.imgUrl} height={sponsor.height} width={imgWidth} />
           <style jsx>{`
             .sponsor {
               display: inline-block;
@@ -22,6 +24,7 @@ const sponsors = (props) => {
   return (
   <React.Fragment>
     <ContentSection title={ 'Event Sponsors' } theme={ 'white' } sectionId={ 'sponsors' }>
+    <Row>
       <Col md={12}>
         <div className="main-sponsor">
           <img src={props.headliner.imgUrl} height={props.headliner.height} />
@@ -30,6 +33,7 @@ const sponsors = (props) => {
           {sponsorContents}
         </div>
       </Col>
+    </Row>
     </ContentSection>
     <style jsx>{`
       .sponsors {
