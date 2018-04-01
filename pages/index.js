@@ -19,7 +19,7 @@ const IndexPage = (props) => (
     <Performance performers={props.performers} />
     <Schedule />
     <Gallery />
-    <Sponsors sponsors={props.sponsors} headliner={props.headliner} tailliner={props.tailliner}/>
+    <Sponsors sponsors={props.sponsors} headliner={props.headliner} />
     <Contact />
     <Location />
     <BottomNav />
@@ -45,17 +45,16 @@ IndexPage.getInitialProps = async function (context) {
     { id: 3, name: '', imgUrl: '/static/images/sponsors/presidente.jpg', height: '100' },
     { id: 4, name: '', imgUrl: '/static/images/sponsors/casa-borinquen.jpg', height: '100' },
     { id: 6, name: '', imgUrl: '/static/images/sponsors/prowater.jpg', height: '100' },
-    { id: 7, name: '', imgUrl: '/static/images/sponsors/yo-soy-latino.jpg', height: '100' }
+    { id: 7, name: '', imgUrl: '/static/images/sponsors/yo-soy-latino.jpg', height: '100' },
+    { id: 8, name: '', imgUrl: '/static/images/sponsors/hispanic-chamber.jpg', height: '80', width: '250' }
   ]
 
   const headliner = { id: 5, name: '', imgUrl: '/static/images/sponsors/gasolina.jpg', height: '250' }
-  const tailliner = { id: 8, name: '', imgUrl: '/static/images/sponsors/hispanic-chamber.jpg', height: '110' }
 
   return {
     performers,
     sponsors,
-    headliner,
-    tailliner
+    headliner
   }
 }
 

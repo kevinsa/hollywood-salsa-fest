@@ -4,9 +4,11 @@ import ContentSection from '../ContentSection'
 const sponsors = (props) => {
 
   const sponsorContents = props.sponsors.map((sponsor) => {
+    let imgWidth = sponsor.hasOwnProperty('width') ? sponsor.width : '';
+
     return (
         <div key={sponsor.id} className="sponsor">
-          <img src={sponsor.imgUrl} height={sponsor.height} />
+          <img src={sponsor.imgUrl} height={sponsor.height} width={imgWidth} />
           <style jsx>{`
             .sponsor {
               display: inline-block;
@@ -30,11 +32,6 @@ const sponsors = (props) => {
         <div className="sponsors">
           {sponsorContents}
         </div>
-      </Col>
-    </Row>
-    <Row>
-      <Col md="12">
-        <img src={props.tailliner.imgUrl} height={props.tailliner.height} width="290"/>
       </Col>
     </Row>
     </ContentSection>
