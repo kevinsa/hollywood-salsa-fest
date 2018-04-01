@@ -22,6 +22,7 @@ const sponsors = (props) => {
   return (
   <React.Fragment>
     <ContentSection title={ 'Event Sponsors' } theme={ 'white' } sectionId={ 'sponsors' }>
+    <Row>
       <Col md={12}>
         <div className="main-sponsor">
           <img src={props.headliner.imgUrl} height={props.headliner.height} />
@@ -30,6 +31,12 @@ const sponsors = (props) => {
           {sponsorContents}
         </div>
       </Col>
+    </Row>
+    <Row>
+      <Col md="12">
+        <img src={props.tailliner.imgUrl} height={props.tailliner.height} width="290"/>
+      </Col>
+    </Row>
     </ContentSection>
     <style jsx>{`
       .sponsors {
