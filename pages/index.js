@@ -28,25 +28,26 @@ const IndexPage = (props) => (
 
 IndexPage.getInitialProps = async function (context) {
   const performers = [
-    { id: 0, name: 'Melina Almodovar', imgUrl: '/static/images/performers/melina-almodovar.jpg' },
-    { id: 1, name: 'Luisito Carrion', imgUrl: '/static/images/performers/luis-carrion.jpg' },
-    { id: 2, name: 'El Buho Loco', imgUrl: '/static/images/performers/crazy-owl.jpg' },
-    { id: 3, name: 'Ramses Araya', imgUrl: '/static/images/performers/ramses.jpg' },
-    { id: 4, name: 'Mario Ortiz', imgUrl: '/static/images/performers/mario-ortiz.jpg' },
-    { id: 5, name: 'Jerry Santiago', imgUrl: '/static/images/performers/jerry-santiago.jpg' },
-    { id: 6, name: 'DJ Raya', imgUrl: '/static/images/performers/dj-raya.jpg' },
-    { id: 7, name: 'MC Negro Fino', imgUrl: '/static/images/performers/nelson-fritz.jpg' }
+    { id: 0, name: 'Puerto Rican Power', imgUrl: '/static/images/performers/puerto-rican-power-album.jpg' },
+    { id: 1, name: 'Melina Almodovar', imgUrl: '/static/images/performers/melina-almodovar-con-mi-sabor.png' },
+    { id: 2, name: 'Tito Puente Jr.', imgUrl: '/static/images/performers/tito-puente-jr.jpg' },
+    { id: 3, name: 'Luigi Flores', imgUrl: '/static/images/anonymous.png' },
+    { id: 4, name: 'Tamara Morales', imgUrl: '/static/images/performers/tamara-morales.jpg' },
+    { id: 5, name: 'Jey Zamorano', imgUrl: '/static/images/performers/jey-zamorano.jpg' },
+    { id: 6, name: 'El Buho Loco', imgUrl: '/static/images/performers/crazy-owl.jpg' },
+    { id: 7, name: 'MC Negro Fino', imgUrl: '/static/images/performers/nelson-fritz.jpg' },
+    { id: 8, name: 'Thelma Cruz', imgUrl: '/static/images/performers/thelma-cruz.jpg' },
+    { id: 9, name: 'DJ Raya', imgUrl: '/static/images/performers/dj-raya.jpg' },
+    { id: 10, name: 'DJ Carmencita', imgUrl: '/static/images/performers/dj-carmencita.jpg' },
+    { id: 11, name: 'DJ Danny O', imgUrl: '/static/images/anonymous.png' },
   ]
 
   const sponsors = [
     { id: 0, name: '', imgUrl: '/static/images/sponsors/cba-realty-logo.jpg', height: '100' },
     { id: 1, name: '', imgUrl: '/static/images/sponsors/hollywood-cra-logo.jpg', height: '100' },
-    { id: 2, name: '', imgUrl: '/static/images/sponsors/budlight.jpg', height: '100' },
-    { id: 3, name: '', imgUrl: '/static/images/sponsors/presidente.jpg', height: '100' },
-    { id: 4, name: '', imgUrl: '/static/images/sponsors/casa-borinquen.jpg', height: '100' },
-    { id: 6, name: '', imgUrl: '/static/images/sponsors/prowater.jpg', height: '100' },
-    { id: 7, name: '', imgUrl: '/static/images/sponsors/yo-soy-latino.jpg', height: '100' },
-    { id: 8, name: '', imgUrl: '/static/images/sponsors/hispanic-chamber.jpg', height: '80', width: '250' }
+    { id: 2, name: '', imgUrl: '/static/images/sponsors/bioptest.jpg', height: '100' },
+    { id: 3, name: '', imgUrl: '/static/images/sponsors/casa-borinquen.jpg', height: '100' },
+    { id: 4, name: '', imgUrl: '/static/images/sponsors/hispanic-chamber.jpg', height: '80', width: '250' }
   ]
 
   const headliner = { id: 5, name: '', imgUrl: '/static/images/sponsors/gasolina.jpg', height: '250' }

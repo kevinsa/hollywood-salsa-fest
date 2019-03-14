@@ -9,9 +9,8 @@ const Welcome = (props) => (
         <Row>
           <Col md={12} className="text-center">
             <div className="hero-text">
-              <h1>Hollywood Salsa Festival</h1>
               <p>
-                Saturday, April 7th 2018
+                Saturday, April 6th 2019
               </p>
             </div>
           </Col>
@@ -44,7 +43,7 @@ const Welcome = (props) => (
         height: 100%;
         z-index: 0;
         opacity: 0.6;
-        background-image: url('static/images/welcome-bg.jpg');
+        background-image: url('static/images/welcome-bg-2019.png');
         background-size: cover;
         background-position: 0% 40%
       }
