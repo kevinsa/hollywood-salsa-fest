@@ -33,7 +33,7 @@ const about = () => (
               </p>
               <br /><br />
               <p>
-              Por los ultimos seis el Hollywood Salsa Festival y sus fundadoras Melina Almodovar y Cristina Moinelo, se han propuesto la meta y la misión de celebrar y mantener viva la música y el género de la salsa en todas sus formas en nuestra sociedad, dedicando un día al año en la bella ciudad de Hollywood, Florida en su parque Arts Park at Young Circle a la música salsera que amamos tanto.
+              Por los ultimos seis años el Hollywood Salsa Festival y sus fundadoras Melina Almodovar y Cristina Moinelo, se han propuesto la meta y la misión de celebrar y mantener viva la música y el género de la salsa en todas sus formas en nuestra sociedad, dedicando un día alaño en la bella ciudad de Hollywood, Florida en su parque Arts Park at Young Circle a la música salsera que amamos tanto.
               Los invitamos a nuestro mundo salsero de rumba, clave, y guaguancó el sábado, 6 de abril, 2019 a las 3:00pm en el parque Arts Park at Young Circle en Hollywood, Florida para gozar de nuestra música y nuestras raíces Latinas.
               Este evento es totalmente gratis para todos los que desean difrutar en grande de nuestra cultura y música salsera en todas sus formas; Orquestas, presentaciones de baile, djs y mucho mas.
               </p>
