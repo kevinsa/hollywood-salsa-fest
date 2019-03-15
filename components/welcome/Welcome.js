@@ -11,7 +11,7 @@ const Welcome = (props) => (
             <div className="hero-text">
               <h1>Hollywood Salsa Festival</h1>
               <p>
-                Saturday, April 7th 2018
+                Saturday, April 6th 2019
               </p>
             </div>
           </Col>
@@ -69,7 +69,7 @@ const Welcome = (props) => (
       .hero-text h1 {
         font-size: 80px;
         font-weight: 700;
-        color: #F8EB68;
+        color: #D2B4DE;
         font-family: 'Comfortaa', cursive;
       }
 

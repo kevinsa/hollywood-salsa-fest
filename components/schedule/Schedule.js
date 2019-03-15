@@ -2,11 +2,11 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import ContentSection from '../ContentSection'
 
 const schedule = () => (
-  <ContentSection title={ 'Saturday April 7th 2018' } theme={ 'purple' } sectionId={ 'schedule' }>
+  <ContentSection title={ 'Saturday April 6th 2019' } theme={ 'purple' } sectionId={ 'schedule' }>
     <Col sm={12} md={10} mdOffset={2}>
       <div className="schedule-item">
         <span className="time pull-left">
-          <i className="fa fa-clock"></i> 5PM  <span className="hidden-md hidden-lg">Live DJ</span>
+          <i className="fa fa-clock"></i> 3PM  <span className="hidden-md hidden-lg">Live DJ</span>
         </span>
         <span className="title hidden-xs hidden-sm">
           Live DJ

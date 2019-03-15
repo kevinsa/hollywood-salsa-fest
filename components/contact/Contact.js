@@ -19,7 +19,7 @@ const contact = () => (
                 <i className="fa fa-envelope"></i> <a href="mailto:info@hollywoodsalsafest.com">info@hollywoodsalsafest.com</a>
               </li>
               <li>
-                <i className="fa fa-clock"></i> Saturday April 7th 2018 at 5PM
+                <i className="fa fa-clock"></i> Saturday April 6th 2019 at 3PM
               </li>
             </ul>
           </div>
