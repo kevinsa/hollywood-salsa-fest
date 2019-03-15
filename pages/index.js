@@ -31,15 +31,16 @@ IndexPage.getInitialProps = async function (context) {
     { id: 0, name: 'Puerto Rican Power', imgUrl: '/static/images/performers/puerto-rican-power-album.jpg' },
     { id: 1, name: 'Melina Almodovar', imgUrl: '/static/images/performers/melina-almodovar-con-mi-sabor.png' },
     { id: 2, name: 'Tito Puente Jr.', imgUrl: '/static/images/performers/tito-puente-jr.jpg' },
-    { id: 3, name: 'Luigi Flores', imgUrl: '/static/images/anonymous.png' },
+    { id: 3, name: 'Luigi Flores', imgUrl: '/static/images/performers/luigi-flores.jpg' },
     { id: 4, name: 'Tamara Morales', imgUrl: '/static/images/performers/tamara-morales.jpg' },
     { id: 5, name: 'Jey Zamorano', imgUrl: '/static/images/performers/jey-zamorano.jpg' },
+    { id: 5, name: 'Cachy y Saoco Nuevo', imgUrl: '/static/images/performers/cachy-y-saoco-nuevo.jpg' },
     { id: 6, name: 'El Buho Loco', imgUrl: '/static/images/performers/crazy-owl.jpg' },
     { id: 7, name: 'MC Negro Fino', imgUrl: '/static/images/performers/nelson-fritz.jpg' },
     { id: 8, name: 'Thelma Cruz', imgUrl: '/static/images/performers/thelma-cruz.jpg' },
     { id: 9, name: 'DJ Raya', imgUrl: '/static/images/performers/dj-raya.jpg' },
     { id: 10, name: 'DJ Carmencita', imgUrl: '/static/images/performers/dj-carmencita.jpg' },
-    { id: 11, name: 'DJ Danny O', imgUrl: '/static/images/anonymous.png' },
+    { id: 11, name: 'DJ Danny O', imgUrl: '/static/images/performers/dj-danny-o.jpg' },
   ]
 
   const sponsors = [

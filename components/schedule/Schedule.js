@@ -6,7 +6,7 @@ const schedule = () => (
     <Col sm={12} md={10} mdOffset={2}>
       <div className="schedule-item">
         <span className="time pull-left">
-          <i className="fa fa-clock"></i> 5PM  <span className="hidden-md hidden-lg">Live DJ</span>
+          <i className="fa fa-clock"></i> 3PM  <span className="hidden-md hidden-lg">Live DJ</span>
         </span>
         <span className="title hidden-xs hidden-sm">
           Live DJ
