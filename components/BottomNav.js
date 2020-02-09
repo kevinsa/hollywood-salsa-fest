@@ -7,7 +7,7 @@ const bottomNav = () => (
       <Row>
         <Col md={6} xs={12}>
           <div className="copyright">
-            <p>Copyright © 2018 | All Rights Reserved : Photography by FeliFoto</p>
+            <p>Copyright © 2020 | All Rights Reserved : Photography by FeliFoto</p>
           </div>
         </Col>
       </Row>
