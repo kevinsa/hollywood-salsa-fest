@@ -26,9 +26,11 @@ const sponsors = (props) => {
     <ContentSection title={ 'Event Sponsors' } theme={ 'white' } sectionId={ 'sponsors' }>
     <Row>
       <Col md={12}>
+        {/*
         <div className="main-sponsor">
           <img src={props.headliner.imgUrl} height={props.headliner.height} />
         </div>
+        */}
         <div className="sponsors">
           {sponsorContents}
         </div>

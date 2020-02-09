@@ -28,27 +28,28 @@ const IndexPage = (props) => (
 
 IndexPage.getInitialProps = async function (context) {
   const performers = [
-    { id: 0, name: 'Puerto Rican Power', imgUrl: '/static/images/performers/puerto-rican-power-album.jpg' },
-    { id: 1, name: 'Melina Almodovar', imgUrl: '/static/images/performers/melina-almodovar-con-mi-sabor.png' },
-    { id: 2, name: 'Tito Puente Jr.', imgUrl: '/static/images/performers/tito-puente-jr.jpg' },
-    { id: 3, name: 'Luigi Flores', imgUrl: '/static/images/performers/luigi-flores.jpg' },
-    { id: 4, name: 'Tamara Morales', imgUrl: '/static/images/performers/tamara-morales.jpg' },
-    { id: 5, name: 'Jey Zamorano', imgUrl: '/static/images/performers/jey-zamorano.jpg' },
-    { id: 6, name: 'Cachy y Saoco Nuevo', imgUrl: '/static/images/performers/cachy-y-saoco-nuevo.jpg' },
-    { id: 7, name: 'El Buho Loco', imgUrl: '/static/images/performers/crazy-owl.jpg' },
-    { id: 8, name: 'MC Negro Fino', imgUrl: '/static/images/performers/nelson-fritz.jpg' },
-    { id: 9, name: 'Thelma Cruz', imgUrl: '/static/images/performers/thelma-cruz.jpg' },
-    { id: 10, name: 'DJ Raya', imgUrl: '/static/images/performers/dj-raya.jpg' },
-    { id: 11, name: 'DJ Carmencita', imgUrl: '/static/images/performers/dj-carmencita.jpg' },
-    { id: 12, name: 'DJ Danny O', imgUrl: '/static/images/performers/dj-danny-o.jpg' },
+    { id: 0, name: 'Tito Puente Jr', imgUrl: '/static/images/performers/2020/tito-puente-jr.jpg' },
+    { id: 0, name: 'Menique', imgUrl: '/static/images/performers/2020/menique.jpg' },
+    { id: 1, name: 'Bobby Cruz', imgUrl: '/static/images/performers/2020/bobby-cruz.jpg' },
+    { id: 2, name: 'Orquesta Del Rey', imgUrl: '/static/images/performers/2020/orquesta-del-rey.jpg' },
+    { id: 3, name: 'Melina Almodovar', imgUrl: '/static/images/performers/2020/melina-almodovar.jpg' },
+    { id: 4, name: 'Timbalive', imgUrl: '/static/images/performers/2020/timbalive.png' },
+    { id: 5, name: 'Le Perla Cubana', imgUrl: '/static/images/performers/2020/la-perla-cubana.jpg' },
+    { id: 6, name: 'Miguel Cruz & Sugarcane', imgUrl: '/static/images/performers/2020/miguelito-cruz.jpg' },
+    { id: 7, name: 'Leonardo Sierra', imgUrl: '/static/images/performers/2020/leonardo-sierra.jpg' },
+    { id: 8, name: 'Edwin El Calvito Reyes', imgUrl: '/static/images/performers/2020/edwin-el-calvito-reyes.jpg' },
+    { id: 9, name: 'David Lucca y Los Clasicos De La Salsa', imgUrl: '/static/images/performers/2020/david-lucca.jpg' },
+    { id: 10, name: 'El Buho Loco', imgUrl: '/static/images/performers/2020/crazy-owl.jpg' },
+    { id: 11, name: 'DJ Carmencita', imgUrl: '/static/images/performers/2020/dj-carmencita.jpg' },
+    { id: 12, name: 'DJ Danny O', imgUrl: '/static/images/performers/2020/dj-danny-o.jpg' },
+    { id: 13, name: 'Nelson Fritz', imgUrl: '/static/images/performers/2020/nelson-fritz.jpg' },
+    { id: 14, name: 'Thelma Cruz', imgUrl: '/static/images/performers/2020/thelma-cruz.jpg' },
   ]
 
   const sponsors = [
     { id: 0, name: '', imgUrl: '/static/images/sponsors/cba-realty-logo.jpg', height: '100' },
     { id: 1, name: '', imgUrl: '/static/images/sponsors/hollywood-cra-logo.jpg', height: '100' },
-    { id: 2, name: '', imgUrl: '/static/images/sponsors/bioptest.jpg', height: '100' },
-    { id: 3, name: '', imgUrl: '/static/images/sponsors/casa-borinquen.jpg', height: '100' },
-    { id: 4, name: '', imgUrl: '/static/images/sponsors/hispanic-chamber.jpg', height: '80', width: '250' }
+    { id: 2, name: '', imgUrl: '/static/images/sponsors/hispanic-chamber.jpg', height: '80', width: '250' }
   ]
 
   const headliner = { id: 5, name: '', imgUrl: '/static/images/sponsors/gasolina.jpg', height: '250' }
