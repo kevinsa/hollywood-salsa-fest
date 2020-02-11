@@ -43,7 +43,7 @@ const performance = (props) => {
      </Row>
      <Row>
        <div className="last">
-        {performerColumns(props.performers.slice(12, 13))}
+        {performerColumns(props.performers.slice(12, 16))}
         </div>
      </Row>
      <style jsx>{`
