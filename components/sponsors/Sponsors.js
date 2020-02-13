@@ -34,6 +34,16 @@ const sponsors = (props) => {
         <div className="sponsors">
           {sponsorContents}
         </div>
+        <div className="sponsor-promo">
+          <div className="title">
+            Want to promote your business at the festival?
+          </div>
+          <div>
+          <a className="btn btn-danger" role="button"
+            href="https://drive.google.com/file/d/1Pa3GCPsB9Cqx6cBI0WmYOyzq3yR0iMYE/view?usp=sharing"
+            target="_blank">View Sponsorship Packages</a>
+            </div>
+        </div>
       </Col>
     </Row>
     </ContentSection>
@@ -48,6 +58,14 @@ const sponsors = (props) => {
 
       .main-sponsor {
         text-align: center;
+      }
+
+      .sponsor-promo{
+        text-align: center;
+      }
+
+      .sponsor-promo .title {
+        margin: 0 0 10px 0;
       }
     `}</style>
   </React.Fragment>

@@ -28,8 +28,9 @@ const contact = () => (
           <div className="contact pad-top">
             <h3>Sponsorship Information</h3>
             <div>
-              Want to promote you business at the festival?  Sponsorship packages and food/merchandise booths are available for purchase.  To learn more about how you can promote your business at the
-              festival please contact us at <a href="tel:954.399.0151">954.399.0151</a> or <a href="mailto:info@hollywoodsalsafest.com">info@hollywoodsalsafest.com</a>
+              Want to promote your business at the festival?  Sponsorship packages and food/merchandise booths are available for purchase.  To learn more about how you can promote your business at the
+              festival view our <a href="https://drive.google.com/file/d/1Pa3GCPsB9Cqx6cBI0WmYOyzq3yR0iMYE/view?usp=sharing" target="_blank">sponsorship packages</a> and contact us at <a href="tel:954.399.0151">954.399.0151</a>
+              
             </div>
           </div>
         </Col>
