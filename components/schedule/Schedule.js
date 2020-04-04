@@ -2,7 +2,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import ContentSection from '../ContentSection'
 
 const schedule = () => (
-  <ContentSection title={ 'Saturday April 11th 2020' } theme={ 'purple' } sectionId={ 'schedule' }>
+  <ContentSection title={ 'Saturday September 12th 2020' } theme={ 'purple' } sectionId={ 'schedule' }>
     <Col sm={12} md={10} mdOffset={2}>
       {/*
       

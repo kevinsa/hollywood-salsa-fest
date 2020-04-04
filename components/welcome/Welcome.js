@@ -11,7 +11,7 @@ const Welcome = (props) => (
             <div className="hero-text">
               <h1>Hollywood Salsa Festival</h1>
               <p>
-                Saturday, April 11th 2020
+                Saturday, September 12th 2020
               </p>
             </div>
           </Col>
