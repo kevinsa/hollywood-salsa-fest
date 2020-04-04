@@ -28,13 +28,13 @@ const about = () => (
               </Row>
               <p>
               For the past six years The Hollywood Salsa Festival and its founders Melina Almodovar and Cristina Moinelo have dedicated themselves to the mission of keeping Salsa Music alive and well in our society by dedicating one day a year in the beautiful city of Hollywood, Florida at Arts Park at Young Circle to celebrating and enjoying salsa music in all its forms. 
-              We welcome all of you salsa fans to our world of rumba, clave, and guaguanco for our 7th anniversary festival on Saturday, April 11th 2020, 2:00 pm at Arts Park at Young Circle, Hollywood FL. 
+              We welcome all of you salsa fans to our world of rumba, clave, and guaguanco for our 7th anniversary festival on Saturday, September 12th 2020, 2:00 pm at Arts Park at Young Circle, Hollywood FL. 
               This event is free for all that want to enjoy the wonders of Salsa Music in all its forms Orchestras, dance performances, djs and more.
               </p>
               <br /><br />
               <p>
               Por los ultimos seis años el Hollywood Salsa Festival y sus fundadoras Melina Almodovar y Cristina Moinelo, se han propuesto la meta y la misión de celebrar y mantener viva la música y el género de la salsa en todas sus formas en nuestra sociedad, dedicando un día alaño en la bella ciudad de Hollywood, Florida en su parque Arts Park at Young Circle a la música salsera que amamos tanto.
-              Los invitamos a nuestro mundo salsero de rumba, clave, y guaguancó el sábado, 11 de abril, 2020 a las 2:00pm en el parque Arts Park at Young Circle en Hollywood, Florida para gozar de nuestra música y nuestras raíces Latinas.
+              Los invitamos a nuestro mundo salsero de rumba, clave, y guaguancó el sábado, 12 de septiembre, 2020 a las 2:00pm en el parque Arts Park at Young Circle en Hollywood, Florida para gozar de nuestra música y nuestras raíces Latinas.
               Este evento es totalmente gratis para todos los que desean difrutar en grande de nuestra cultura y música salsera en todas sus formas; Orquestas, presentaciones de baile, djs y mucho mas.
               </p>
               <div className="social-media">
