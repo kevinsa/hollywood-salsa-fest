@@ -10,6 +10,9 @@ const Welcome = (props) => (
           <Col md={12} className="text-center">
             <div className="hero-text">
               <h1>Hollywood Salsa Festival</h1>
+              <h5>
+                postponed due to covid-19
+              </h5>
               <p>
                 Saturday, September 12th 2020
               </p>
@@ -71,6 +74,13 @@ const Welcome = (props) => (
         font-weight: 700;
         color: #D2B4DE;
         font-family: 'Comfortaa', cursive;
+        margin-bottom: 0px;
+      }
+
+      .hero-text h5 {
+        color: yellow;
+        text-transform: uppercase;
+        margin: 0px;
       }
 
       @media only screen and (max-width:768px) {
