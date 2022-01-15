@@ -16,10 +16,13 @@ const contact = () => (
                 <i className="fa fa-phone"></i> <a href="tel:954.399.0151">954.399.0151</a>
               </li>
               <li>
-                <i className="fa fa-envelope"></i> <a href="mailto:info@hollywoodsalsafest.com">info@hollywoodsalsafest.com</a>
+                <i className="fa fa-envelope"></i> <a href="mailto:melinasalsa@gmail.com">melinasalsa@gmail.com</a>
               </li>
               <li>
-                <i className="fa fa-clock"></i> Saturday September 12th 2020 at 2PM
+                <i className="fa fa-envelope"></i> <a href="mailto:cristinasalsafest@gmail.com">cristinasalsafest@gmail.com</a>
+              </li>
+              <li>
+                <i className="fa fa-clock"></i> Saturday April 9th, 2022 @ 12PM
               </li>
             </ul>
           </div>

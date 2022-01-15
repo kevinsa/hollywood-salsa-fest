@@ -9,12 +9,8 @@ const Welcome = (props) => (
         <Row>
           <Col md={12} className="text-center">
             <div className="hero-text">
-              <h1>Hollywood Salsa Festival</h1>
-              <h5>
-                postponed due to covid-19
-              </h5>
               <p>
-                Saturday, September 12th 2020
+                Saturday, April 9th 2022
               </p>
             </div>
           </Col>
@@ -46,10 +42,10 @@ const Welcome = (props) => (
         width: 100%;
         height: 100%;
         z-index: 0;
-        opacity: 0.6;
-        background-image: url('static/images/welcome-bg.jpg');
+        opacity: 0.8;
+        background-image: url('static/images/banner-2022.jpg');
         background-size: cover;
-        background-position: 0% 40%
+        background-position: 0% 0%
       }
 
       .text-center {
@@ -57,7 +53,7 @@ const Welcome = (props) => (
       }
 
       .hero-text {
-        padding-top: 250px;
+        padding-top: 220px;
         color: #fff;
       }
       
