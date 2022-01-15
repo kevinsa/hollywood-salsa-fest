@@ -32,6 +32,12 @@ const performerColumns = (performers) => {
 const performance = (props) => {
   return (
     <ContentSection title={ 'Event Performers' } theme={ 'lavendar' } sectionId={ 'performers' }>
+      <Row>
+        <p className="performance-flyer">
+          <img className="img-responsive" src="/static/images/banner-flyer-2022.jpg" />
+        </p>
+      </Row>
+      {/*
      <Row>
         {performerColumns(props.performers.slice(0, 4))}
      </Row>
@@ -46,9 +52,18 @@ const performance = (props) => {
         {performerColumns(props.performers.slice(12, 16))}
         </div>
      </Row>
+      */}
      <style jsx>{`
        .last {
          margin-top: 60px;
+       }
+
+       p.performance-flyer {
+         text-align: center;
+       }
+
+       p.performance-flyer img {
+         display: initial;
        }
      `}</style>
     </ContentSection>
