@@ -5,24 +5,24 @@ const eventSummary = (props) => (
     <Row className="hidden-xs hidden-sm">
       <Col md={4} sm={6} xs={12}>
         <div className="summary">
-          <h3>Live Music Performances</h3>
+          <h3></h3>
         </div>
       </Col>
       <Col md={4} sm={6} xs={12}>
         <div className="summary">
-          <h3>Dance School Performances</h3>
+          <h3></h3>
         </div>
       </Col>
       <Col md={4} sm={6} xs={12}>
         <div className="summary borderRightNone">
-          <h3>Live DJ Dance Music</h3>
+          <h3></h3>
         </div>
       </Col>
     </Row>
     <Row className="hidden-md hidden-lg">
       <Col md={12}>
         <div className="summary borderRightNone">
-          <h3>Live Music and Dance Performances</h3>
+          <h3></h3>
         </div>
       </Col>
     </Row>

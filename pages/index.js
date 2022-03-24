@@ -48,7 +48,7 @@ IndexPage.getInitialProps = async function (context) {
 
   const sponsors = [
     { id: 0, name: '', imgUrl: '/static/images/sponsors/cba-realty-logo.jpg', height: '100' },
-    { id: 1, name: '', imgUrl: '/static/images/sponsors/hollywood-cra-logo.jpg', height: '100' },
+    { id: 1, name: '', imgUrl: '/static/images/sponsors/hollywood-cra-logo-2.jpg', height: '100' },
     { id: 2, name: '', imgUrl: '/static/images/sponsors/hispanic-chamber.jpg', height: '80', width: '250' }
   ]
 
