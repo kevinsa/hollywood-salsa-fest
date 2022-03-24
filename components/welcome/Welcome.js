@@ -10,7 +10,7 @@ const Welcome = (props) => (
           <Col md={12} className="text-center">
             <div className="hero-text">
               <p>
-                Saturday, April 9th 2022
+                
               </p>
             </div>
           </Col>
@@ -43,7 +43,7 @@ const Welcome = (props) => (
         height: 100%;
         z-index: 0;
         opacity: 0.8;
-        background-image: url('static/images/banner-2022.jpg');
+        background-image: url('static/images/banner-flyer-2022.jpg');
         background-size: cover;
         background-position: 0% 0%
       }

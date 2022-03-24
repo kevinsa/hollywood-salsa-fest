@@ -11,12 +11,12 @@ const gallery = (props) => {
           <div className="carousel-container">
             <Carousel>
                 <div>
-                    <img src="/static/images/gallery/carousel-1.jpg" />
+                    <img src="/static/images/gallery/carousel-4.jpg" />
                     <p className="legend">Arts Park Venue</p>
                 </div>
                 <div>
-                    <img src="/static/images/gallery/carousel-2.jpg" />
-                    <p className="legend">Last Year's Closing</p>
+                    <img src="/static/images/gallery/carousel-5.jpg" />
+                    <p className="legend">Arts Park Venue</p>
                 </div>
                 {/*
                 <div>
