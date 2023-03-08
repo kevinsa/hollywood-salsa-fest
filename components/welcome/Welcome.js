@@ -28,7 +28,7 @@ const Welcome = (props) => (
         background-size: cover;
         background-position: 0% 40%
         */
-        height: 600px;
+        height: 760px;
         position: relative;
         z-index: 0;
       }
@@ -43,7 +43,7 @@ const Welcome = (props) => (
         height: 100%;
         z-index: 0;
         opacity: 0.8;
-        background-image: url('static/images/banner-flyer-2022.jpg');
+        background-image: url('static/images/banner-2023-3.jpg');
         background-size: cover;
         background-position: 0% 0%
       }

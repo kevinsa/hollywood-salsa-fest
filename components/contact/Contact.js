@@ -22,7 +22,7 @@ const contact = () => (
                 <i className="fa fa-envelope"></i> <a href="mailto:cristinasalsafest@gmail.com">cristinasalsafest@gmail.com</a>
               </li>
               <li>
-                <i className="fa fa-clock"></i> Saturday April 9th, 2022 @ 12PM
+                <i className="fa fa-clock"></i> Saturday April 8th, 2023
               </li>
             </ul>
           </div>

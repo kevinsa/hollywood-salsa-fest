@@ -34,7 +34,7 @@ const performance = (props) => {
     <ContentSection title={ 'Event Performers' } theme={ 'lavendar' } sectionId={ 'performers' }>
       <Row>
         <p className="performance-flyer">
-          <img className="img-responsive" src="/static/images/banner-flyer-2022.jpg" />
+          <img className="img-responsive" src="/static/images/banner-2023-3.jpg" />
         </p>
       </Row>
       {/*
