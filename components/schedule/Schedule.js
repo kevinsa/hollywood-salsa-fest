@@ -24,7 +24,7 @@ const schedule = () => (
       */}
       <div className="schedule-item noborder">
         <span className="time">
-          <i className="fa fa-clock"></i> 12PM-11PM  <span className="hidden-md hidden-lg">All Day Event</span>
+          <i className="fa fa-clock"></i> 2PM-11PM  <span className="hidden-md hidden-lg">All Day Event</span>
         </span>
         <span className="title hidden-xs hidden-sm ">
           All Day Event

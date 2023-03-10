@@ -30,13 +30,13 @@ const about = () => (
               */}
               <p>
               For the past seven years The Hollywood Salsa Festival and its founders Melina Almodovar and Cristina Moinelo have dedicated themselves to the mission of keeping Salsa Music alive and well in our society by dedicating one day a year in the beautiful city of Hollywood, Florida at Arts Park at Young Circle to celebrating and enjoying salsa music in all its forms. 
-              We welcome all of you salsa fans to our world of rumba, clave, and guaguanco for our 8th anniversary festival on Saturday April 8th 2023 at 12:00 pm at Arts Park at Young Circle, Hollywood FL.
+              We welcome all of you salsa fans to our world of rumba, clave, and guaguanco for our 8th anniversary festival on Saturday April 8th 2023 at 2:00 pm at Arts Park at Young Circle, Hollywood FL.
               This event is free for all that want to enjoy the wonders of Salsa Music in all its forms Orchestras, dance performances, djs and more.
               </p>
               <br /><br />
               <p>
-              Por los ultimos seis años el Hollywood Salsa Festival y sus fundadoras Melina Almodovar y Cristina Moinelo, se han propuesto la meta y la misión de celebrar y mantener viva la música y el género de la salsa en todas sus formas en nuestra sociedad, dedicando un día alaño en la bella ciudad de Hollywood, Florida en su parque Arts Park at Young Circle a la música salsera que amamos tanto.
-              Los invitamos a nuestro mundo salsero de rumba, clave, y guaguancó el sábado, 8 de Abril, 2023 a las 12:00pm en el parque Arts Park at Young Circle en Hollywood, Florida para gozar de nuestra música y nuestras raíces Latinas.
+              Por los ultimos siete años el Hollywood Salsa Festival y sus fundadoras Melina Almodovar y Cristina Moinelo, se han propuesto la meta y la misión de celebrar y mantener viva la música y el género de la salsa en todas sus formas en nuestra sociedad, dedicando un día alaño en la bella ciudad de Hollywood, Florida en su parque Arts Park at Young Circle a la música salsera que amamos tanto.
+              Los invitamos a nuestro mundo salsero de rumba, clave, y guaguancó el sábado, 8 de Abril, 2023 a las 2:00pm en el parque Arts Park at Young Circle en Hollywood, Florida para gozar de nuestra música y nuestras raíces Latinas.
               Este evento es totalmente gratis para todos los que desean difrutar en grande de nuestra cultura y música salsera en todas sus formas; Orquestas, presentaciones de baile, djs y mucho mas.
               </p>
               <div className="social-media">
