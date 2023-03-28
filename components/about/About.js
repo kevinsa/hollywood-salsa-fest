@@ -41,10 +41,10 @@ const about = () => (
               </p>
               <div className="social-media">
                 <h3>Visit us social media</h3>
-                <a href="http://www.facebook.com/hollywoodsalsafestival" target="_blank">
+                <a href="http://www.facebook.com/hollywoodsalsafest" target="_blank">
                   <img className="pad-right" src="/static/images/facebook-icon.png" atl="salafest-facebook-link" />
                 </a>
-                <a href="https://www.instagram.com/hollywoodsalsafestival/?hl=en" target="_blank">
+                <a href="https://www.instagram.com/hollywoodsalsafest/?hl=en" target="_blank">
                   <img src="/static/images/instagram-icon.png" alt="salsafest-instagram-link" />
                 </a>
               </div>
